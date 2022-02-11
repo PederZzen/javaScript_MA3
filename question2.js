@@ -13,7 +13,7 @@ const getGames = (list) => {
         <li>
             <h2>${list[i].name}</h2>
             <p><strong>Rating: </strong>${list[i].rating}<p/>
-            <p><strong>Tags: </strong>${list[i].tags.length}
+            <p><strong>Tags: </strong>${list[i].tags.length}</p>
         </li>`;
 
         output.innerHTML += newLi;
